@@ -5,7 +5,7 @@ RUN >> /etc/apk/repositories && \
         automake \
         curl \
         git \
-        indent
+        inden
 
 WORKDIR /usr/src/pam_aad
 COPY . /usr/src/pam_aad
